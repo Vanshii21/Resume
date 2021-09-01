@@ -1,0 +1,352 @@
+body{
+    margin:0;
+}
+section{
+    margin-top: 20vh;
+}
+#bg-img{
+    height: 69vh;
+  width: 100vw;  
+margin-left: 0%;
+margin-right: 0%;
+/* position: absolute; */
+}
+
+#bg-img{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+
+}
+#bg-img h1{
+    position: relative;
+    font-size: 3rem;
+    top:24%;
+    color: white;
+    text-align: center;
+}
+
+/* .horizontal-list{
+    display: inline-block;
+} */
+#hori{
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+#hori a{
+    text-decoration: none;
+}
+#hori li{
+    display: inline;
+    color: white;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-bottom: 0.5%;
+    transition: color 0.5s, border-bottom 4s;
+    }
+
+#hori li:hover{
+    border-bottom: 1px solid white;
+    color:lightgrey;
+}
+/* Icons */
+.icons{
+    position: relative;
+    top:22%;
+    margin-right:3%;
+    text-align: center;
+    transition: border 4s;
+}
+.icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.icons li a{
+    color:white;
+    text-decoration: none;
+}
+.icons li:hover{
+    border:0px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 2px lightgrey;
+}
+/* Small img */
+#sml-img{
+    height:27vh;
+    margin-top:22vh;
+    margin-left: 43vw;
+}
+#sml-img img{
+height:27vh;
+width:13vw;
+border:3px solid white;
+border-radius: 50%;
+opacity: 0.9;
+box-shadow: 0px 0px 5px 3px lightgrey ;
+}
+
+/* About Section */
+#about{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 27vh;
+}
+#about p{
+    color:grey;
+    font-size: 1.2em;
+    text-align:justify;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+/Contact Section/
+.contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background:linear-gradient(to top right,#2d4e96,#383e7c,#403066);;
+    color: #fff;
+}
+
+#formdata{
+    border:none; 
+    padding: 1%;
+    margin: 2%;
+    height: 30px;
+    width: 120%;
+    background-color: inherit;
+    border-bottom: 2px solid #fff;
+}
+
+#outerdiv{
+    display: flex;
+}
+#inner1{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 50%;
+   
+}
+#inner2{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+#msg{
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 2px solid #fff;
+    background-color: inherit;
+    color:#fff;
+    padding: 2%;
+}
+
+
+
+/Skill Section/
+#skills{
+    background-color: #efefef;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.skill1{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.outer{
+    height:5vh ;
+    width: 175px ;
+    background-color: #d3d3d3;
+    border-radius: 3em;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    }
+.skill-span{
+    display: inline-block;
+    padding: 7px;
+    color: white;
+}
+#c{
+    height:inherit;
+    width:75%;
+    background-color:#2857a4;
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 3em;
+}
+#html{
+    height:inherit;
+    width:90%;
+    background-color:#ec4d1c;
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 3em;
+}
+#css{
+    height:inherit;
+    width:80%;
+    background-color:#93738c;
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 3em;
+}
+#javascript{
+    height:inherit;
+    width:50%;
+    background-color:#ec4d1c;
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 3em;
+}
+#java{
+    height:inherit;
+    width:75%;
+    background-color:#2857a4;
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 3em;
+}
+
+
+
+/Work Section/
+.work{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    }
+
+.work1{
+    position: relative;
+    height:33%;
+    width:45%;
+    min-height:250px;
+    margin:5px;
+}
+.work1:nth-child(2n){
+    left:54%;
+}
+.work1:nth-child(2n+1):after{
+    content: '';
+    position: absolute;
+    top:33%;
+    right:-11%;
+    border-radius: 50%;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #d3d3d3;
+     z-index: 1;
+}
+.work1:nth-child(2):after{
+    content: '';
+    position: absolute;
+    top:33%;
+    left:-11%;
+    border-radius: 50%;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #d3d3d3;
+     z-index: 1;
+}
+.divider{
+    position: absolute;
+    height: 66%;
+    width: 0;
+    border:1px dashed #c4e7fe;
+    left:50%;
+    top:12%;
+}
+.path{
+    position: sticky;
+    top:4%;
+    transform:rotate(90deg);
+}
+
+
+/Education Section/
+#edu{
+    background-color: #efefef;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+/Portfolio Section/
+#port{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.port1{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 40px;
+}
+.port2{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.port1:hover{
+    box-shadow: 0 0 20px #74ADC8;
+}
+.port2:hover{
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+
+/Work and Education Titles and Subtitles/
+.titles{
+    text-align: center;
+    font-size: 3em;
+    color: #2857a4;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+}
+
+.subtitle1{
+    font-size: 1.3em;
+    font-family: sans-serif;
+    color: #2857a4;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.subtitle2{
+    text-align: right;
+    font-family: sans-serif;
+    color:#f19a4d;
+    font-size:1.1em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.subtitle3{
+    text-align: right;
+    font-family: sans-serif;
+    color:#9f868c;
+    font-size:1.1em;
+    margin-top: 0;
+}
+
+.para{
+    text-align: justify;
+    font-size: 1em;
+    font-family: sans-serif;
+    color:#9f868c;
+}
